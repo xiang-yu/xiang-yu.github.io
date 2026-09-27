@@ -186,7 +186,6 @@ main { max-width: var(--max); margin: 0 auto; padding: 0 1.5rem 6rem; }
   top: 78px;
   box-shadow: 0 0 0 62px rgba(15,82,87,.03), 0 0 0 124px rgba(216,90,52,.026);
 }
-.orbit-one::before,
 .orbit-two::before {
   content: "";
   position: absolute;
@@ -196,7 +195,6 @@ main { max-width: var(--max); margin: 0 auto; padding: 0 1.5rem 6rem; }
   background: var(--accent);
   box-shadow: 0 0 0 6px rgba(216,90,52,.1);
 }
-.orbit-one::before { left: 42px; top: 94px; }
 .orbit-two { width: 250px; height: 250px; right: 55px; top: 203px; border-style: dashed; transform: rotate(-20deg); }
 .orbit-two::before { right: 12px; bottom: 61px; }
 .hero-kicker { position: relative; z-index: 1; margin-bottom: 1.35rem; color: var(--accent-dark); font-size: .76rem; font-weight: 850; letter-spacing: .15em; text-transform: uppercase; }
